@@ -162,6 +162,9 @@
   # unconfirmed_email column, and copied to email column on successful confirmation.
   config.reconfirmable = true
 
+
+  config.navigational_formats = ['*/*', :html]
+
   # Defines which key will be used when confirming an account
   # config.confirmation_keys = [ :email ]
 
